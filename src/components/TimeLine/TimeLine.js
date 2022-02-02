@@ -44,11 +44,14 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and establishing developers to take their development skills to the next level and build awesome apps.
+        I'm a Fullstack Web Developer with a background in Computer Science and IT Support. Recently, I graduated from Springboard's Immersive Web Development Bootcamp. 
+        I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!
       </SectionText>
-      <CarouselContainer href={carouselRef} onScroll={handleScroll}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
@@ -99,7 +102,7 @@ const Timeline = () => {
       </CarouselContainer>
       <CarouselButtons>
         {TimeLineData.map((item, index) => (
-          <CarouselButton
+          <CarouselButton 
             key={index}
             index={index}
             active={activeItem}
@@ -110,7 +113,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

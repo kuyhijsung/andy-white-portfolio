@@ -1,20 +1,23 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+      <SectionText main center>
+        Hi there! I'm...     
+      </SectionText>
+      <SectionTitle>
+        Andy White.
       </SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and establishing developers to take their development skills to the next level and build awesome apps.
+        An up-and-coming Fullstack Web Developer passionate about creating interactive applications and experiences on the web. 
       </SectionText>
-      <Button onClick={() => window.location = "https://www.google.com/"}>Learn More</Button>
+      <br />
+      <Button onClick={() => window.location = "https://www.google.com/"}>Résumé</Button>
     </LeftSection>
   </Section>
 );
