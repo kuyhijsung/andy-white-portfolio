@@ -1,5 +1,6 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineCopyrightCircle, AiFillLinkedin } from 'react-icons/ai';
+import { SectionTitle } from '../../styles/GlobalComponents';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -19,18 +20,17 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <AiOutlineCopyrightCircle size="2rem" />
+          <Slogan>A[w]/2022</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://www.github.com/kuyhijsung/">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      < SocialIcons href ="https://www.linkedin.com/in/kuyhijsung/">
+      <SocialIcons href ="https://www.linkedin.com/in/kuyhijsung/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
+      
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

@@ -17,7 +17,7 @@ const Hero = () => (
         An up-and-coming Fullstack Web Developer passionate about creating interactive applications and experiences on the web. 
       </SectionText>
       <br />
-      <Button onClick={() => window.location = "https://www.google.com/"}>Résumé</Button>
+      <Button onClick={() => window.location = "assets/Andy-White-Resume.pdf"}>Résumé</Button>
     </LeftSection>
   </Section>
 );

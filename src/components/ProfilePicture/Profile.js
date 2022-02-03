@@ -3,7 +3,7 @@ import { Img } from "./ProfileStyles";
 
 const Profile = () => (
     <div>
-        <Img src="/images/image0.jpg" />
+        <Img src="/images/profile.jpg" />
     </div>
 );
 

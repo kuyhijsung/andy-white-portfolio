@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitle, Highlight } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -48,8 +48,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm a Fullstack Web Developer with a background in Computer Science and IT Support. Recently, I graduated from Springboard's Immersive Web Development Bootcamp. 
-        I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!
+        I'm a <Highlight>Fullstack Web Developer</Highlight> with a background in Computer Science and IT Support. Recently, I graduated from <Highlight>Springboard's Immersive Web Development Bootcamp.</Highlight> I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
