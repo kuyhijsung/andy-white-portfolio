@@ -2,7 +2,7 @@ import React from "react";
 import { Img } from "./ProfileStyles";
 
 const Profile = () => (
-    <div>
+    <div style={{display: "flex", justifyContent: "center"}}>
         <Img src="/images/profile.jpg" />
     </div>
 );

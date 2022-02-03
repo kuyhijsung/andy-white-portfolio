@@ -1,7 +1,6 @@
-
 import styled from 'styled-components'
 
-export const CarouselContainer = styled.ul`
+export const CarouselContainer = styled.ul `
   max-width: 1040px;
   background: #0F1624;
   padding: 0rem;
@@ -32,14 +31,17 @@ export const CarouselContainer = styled.ul`
     margin-bottom: 8px;
   }
 `
-export const CarouselMobileScrollNode = styled.div`
+export const CarouselMobileScrollNode = styled.div `
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
-    min-width: ${({ final }) => final ? `120%;` : `min-content`}
+    min-width: ${({ final }) => final ? `
+120 % ;
+` : `
+min - content `}
   }
 `
 
-export const CarouselItem = styled.div`
+export const CarouselItem = styled.div `
   background: #0F1624;
   border-radius: 3px;
   max-width: 196px;
@@ -64,7 +66,7 @@ export const CarouselItem = styled.div`
   }
 `
 
-export const CarouselItemTitle = styled.h4`
+export const CarouselItemTitle = styled.h4 `
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
@@ -87,7 +89,7 @@ export const CarouselItemTitle = styled.h4`
     line-height: 24px;
   }
 `
-export const CarouselItemImg = styled.svg`
+export const CarouselItemImg = styled.svg `
   margin-left: 21px;
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
   width: 100%;
@@ -99,7 +101,7 @@ export const CarouselItemImg = styled.svg`
   }
 `
 
-export const CarouselItemText = styled.p`
+export const CarouselItemText = styled.p `
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
@@ -117,7 +119,7 @@ export const CarouselItemText = styled.p`
     padding-right: 0;
   }
 `
-export const CarouselButtons = styled.div`
+export const CarouselButtons = styled.div `
   width: 288px;
 
   display: none;
@@ -130,7 +132,7 @@ export const CarouselButtons = styled.div`
   }
 `
 
-export const CarouselButton = styled.button`
+export const CarouselButton = styled.button `
   box-sizing: border-box;
   background: none;
   padding: 4px;
@@ -145,7 +147,7 @@ export const CarouselButton = styled.button`
   }
 `
 
-export const CarouselButtonDot = styled.div`
+export const CarouselButtonDot = styled.div `
   background-color: white;
   border-radius: 10px;
   margin: auto;
