@@ -30,7 +30,7 @@ export const projects = [{
     description: "My personal portfolio used to host and display my personal web development progress! Built with React and Next.",
     image: '/images/portfolio.JPG',
     tags: ['React', 'Next'],
-    source: 'https://kuyhijsung.com/',
+    source: 'https://github.com/kuyhijsung/andy-white-portfolio',
     visit: 'https://google.com',
     id: 3,
   },
