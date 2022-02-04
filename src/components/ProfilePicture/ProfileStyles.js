@@ -10,10 +10,10 @@ export const Img = styled.img`
   box-shadow: 12px 0#00BFFF, 24px 0#7B68EE, 36px 0#8A2BE2;
 
   @media ${props => props.theme.breakpoints.lg} {
-    width: 95%;
-    height: 90%;
+    width: 100%;
+    height: auto;
   }
   @media ${props => props.theme.breakpoints.md} {
-    display: none;
+    display: none;  
   }
 `

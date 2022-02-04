@@ -8,14 +8,16 @@ export const Boxes = styled.div`
   margin: 24px 0 40px;
 
   @media ${props => props.theme.breakpoints.md}{
+    display: grid;
     gap: 16px;
     margin: 20px 0 32px;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
   }
 
   @media ${props => props.theme.breakpoints.sm}{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     gap: 10px;
     max-width: 500px;
     margin: 24px auto;
