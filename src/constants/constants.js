@@ -3,7 +3,7 @@ export const projects = [{
     description: "A simple job searching web application that stores login sessions and variety of informations pertaining to a job. Built with React, Node, Express, and PostgreSQL.",
     image: '/images/reactJobly.JPG',
     tags: ['PostgreSQL', 'Express', 'React', 'Node'],
-    source: 'https://github.com/kuyhijsung/jobly',
+    source: 'https://github.com/kuyhijsung/reactJobly2',
     visit: 'https://google.com',
     id: 0,
   },
@@ -24,6 +24,15 @@ export const projects = [{
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
+  },
+  {
+    title: 'Personal Portfolio',
+    description: "My personal portfolio used to host and display my personal web development progress! Built with React and Next.",
+    image: '/images/portfolio.JPG',
+    tags: ['React', 'Next'],
+    source: 'https://kuyhijsung.com/',
+    visit: 'https://google.com',
+    id: 3,
   },
 ];
 
