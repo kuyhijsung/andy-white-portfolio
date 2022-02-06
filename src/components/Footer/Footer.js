@@ -22,10 +22,10 @@ const Footer = () => {
           <Slogan>A[w]/2022</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://www.github.com/kuyhijsung/">
+          <SocialIcons href="https://www.github.com/kuyhijsung/" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href ="https://www.linkedin.com/in/kuyhijsung/">
+      <SocialIcons href ="https://www.linkedin.com/in/kuyhijsung/" target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       
